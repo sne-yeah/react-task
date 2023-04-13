@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
+ 
+/*
+.signin {
+  width: 400px;
+  min-height: 450px;
+  border-radius: 3px;
+  box-shadow: 3px 3px 3px #001324dc;
+}*/
+ .signin_wrapper {
+  width: 100vh;
+  background: #0087ffde;
+} 
+/* .signin_sucess {
+  background: #005baa;
+} */
+
+/* .signin_sucess h1 {
+  letter-spacing: 1px;
+}
+
+.signin_sucess p {
+  margin-top: 15px;
+  letter-spacing: 1px;
+} */
+
+h2 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 500;
+  margin: 12px;
+}
+div.textField {
+  width: 100%;
+  margin: 12px;
+}
+div.textField input {
+  font-size: 20px;
+}
+div.textField svg {
+  font-size: 2px;
+}
+.button1{
+  background: #001324dc;
+  width: 100%;
+  line-height: 35px;
+  margin: 20px 9px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form {
+  padding: 30px 50px;
+}
+
+.error_msg {
+  color: #ff0000e0;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+
+span.signup {
+  color: #fffffdfe;
+  cursor: pointer;
+}
+h3 {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.mainblock {
+  background: #ffffff;
+ display: flex;
+  /*  align-items: center;
+  align-self: center;
+  justify-content: center; */
+} 
+

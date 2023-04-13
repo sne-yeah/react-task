@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.fas.fa-minus{
+  color:black;
+  
+
+  
+}
+.fas.fa-plus{
+  color:black;
+
+  
+}
+.container div {
+  background-color: white;
+  width: 27vw;
+  height: max-content;
+  text-align: center;
+  margin-bottom: 2vh;
+}
+.container div h1 {
+  /*title*/
+  padding: 10px;
+  font-size: 22px;
+  font-weight: bold;
+ 
+}
+.container div p {
+  height: 10vh;
+  font-size: 14px;
+  padding: 10px;
+}
+.container div img {
+  height: 20vh;
+  width: 27vw;
+  object-fit: contain;
+}
+.container div h4 {
+  /*rating*/
+  width: 60px;
+  height: 30px;
+  background-color: green;
+  color: white;
+  margin: 18px;
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+}
+.container div h5 {
+  /*price*/
+  font-size: 20px;
+  width: 60px;
+  padding-left: 20px;
+  padding-top: 7px;
+  text-align: left;
+}
+
+.container div h3 {
+  /*discount*/
+  margin-top: -20px;
+  padding-right: 28px;
+  font-size: 18px;
+  color: rgb(7, 90, 7);
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  width: 2vw;
+  height: 10vh;
+}
+
+ button {
+  width: 12vw;
+  height: 8vh;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 10px;
+  padding: 17px 37px;
+  align-self: center;
+  justify-content: center;
+  background-color: rgb(255, 208, 0);
+  color: black;
+  cursor: pointer;
+
+}
+
+
+button:first-child
+{
+  background-color: rgb(255, 208, 0);
+ display: flex;
+ justify-items: center;
+ justify-content: space-between;
+ align-self: center;
+ 
+}
+button:first-child i
+{
+ justify-content: center;
+ align-self: center;
+ 
+}
+
+button:first-child p
+{
+  margin-top: 33px ;
+ justify-content: center;
+ align-self: center;
+ 
+}
